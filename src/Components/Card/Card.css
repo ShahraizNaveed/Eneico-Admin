@@ -1,0 +1,14 @@
+.card {
+    margin-top: 60px;
+    cursor: pointer;
+}
+
+.blue {
+    background-color: rgba(32, 32, 210, 0.799) !important;
+    color: white !important;
+}
+
+.yellow {
+    background-color: #F3BC00 !important;
+    color: black !important;
+}

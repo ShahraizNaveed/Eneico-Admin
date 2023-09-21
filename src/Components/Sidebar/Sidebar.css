@@ -1,0 +1,58 @@
+.sidebar {
+}
+
+.white{
+  color: rgba(255, 255, 255, 0.763);
+  transition: all ease 0.3s;
+}
+
+.list-group a:hover {
+  background-color: #F3BC00 !important;
+  color: black;
+  cursor: pointer;
+  border: 1px solid black !important;
+}
+
+.list-group a:hover .white {
+  color: black;
+}
+
+.list-group-item {
+  background-color: #15304E !important;
+  border: 1px solid rgb(255, 255, 255) !important;
+  border-radius: 5px !important;
+  margin: 10px 0;
+  transition: all ease 0.3s;
+}
+
+.brand-name {
+  color: #F3BC00;
+}
+
+@media screen and  (max-width: 550px) {
+  .brand-name {
+    font-size: 14px;
+  }
+
+  .white {
+    font-size: 12px;
+    margin-left: -5px;
+  }
+
+  .list-group-item {
+    display: flex !important;
+    align-items: center;
+    border: none !important;
+    margin-left: -10px;
+  }
+
+  .list-group a:hover {
+    background-color: transparent !important;
+    border: none !important;
+    cursor: pointer;
+  }
+  
+  .list-group a:hover .white {
+    color: #F3BC00;
+  }
+}
