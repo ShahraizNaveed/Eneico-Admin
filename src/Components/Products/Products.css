@@ -1,0 +1,22 @@
+.product-image{
+    width: 100px;
+    border-radius: 5px;
+}
+
+tr th {
+    background-color: #F3BC00 !important;
+}
+
+.add-btn {
+    margin-top: 30px;
+}
+
+.add-btn a {
+    color: black;
+    font-weight: 600;
+    font-style: oblique;
+}
+
+.table-section {
+    margin-top: 30px;
+}

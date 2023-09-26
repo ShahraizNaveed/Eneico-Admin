@@ -1,0 +1,39 @@
+.form-section{
+    margin-top: 50px;
+}
+
+.form-section form {
+  background-color: lightgray;
+}
+
+.newproduct-heading{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+.form-section form {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 50px 60px;
+}
+
+.form-section label {
+    font-weight: 500;
+    color: black;
+}
+
+.product-submit-button{
+    background-color: #F3BC00;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin-top: 20px;
+    transition: all ease 0.5s;
+}
+
+.product-submit-button:hover {
+  background-color: #15304E;
+  color: white;
+}

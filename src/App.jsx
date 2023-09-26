@@ -7,6 +7,7 @@ import Products from "./Components/Products/Products";
 import Blogs from "./Components/Blogs/Blogs";
 import Nav from "./Components/Nav/Nav";
 import Profile from "./Components/Profile/Profile";
+import NewProduct from "./Components/Products/NewProduct/NewProduct";
 
 function App() {
   const [toggle, setToggle] = useState(true);
@@ -28,6 +29,7 @@ function App() {
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/products" element={<Products />} />
+              <Route path="/newproduct" element={<NewProduct />} />
               <Route path="/blogs" element={<Blogs />} />
               <Route path="/profile" element={<Profile />} />
             </Routes>
