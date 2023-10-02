@@ -24,7 +24,7 @@ function App() {
               <Sidebar Toggle={toggle} />
             </div>
           )}
-          <div className="col">
+          <div className={toggle ? "col-8 col-md-10" : "col-md-12 second-half"}>
             <Nav Toggle={Toggle} />
             <Routes>
               <Route path="/" element={<Home />} />

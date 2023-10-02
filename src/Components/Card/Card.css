@@ -4,11 +4,23 @@
 }
 
 .blue {
-    background-color: rgba(32, 32, 210, 0.799) !important;
+    background-color: #38373E !important;
     color: white !important;
+    transition: all 0.3s ease-in;
+}
+
+.blue:hover {
+    background-color: cornsilk !important;
+    color: black !important;
 }
 
 .yellow {
     background-color: #F3BC00 !important;
+    color: black !important;
+    transition: all 0.3s ease-in;
+}
+
+.yellow:hover {
+    background-color: seashell !important;
     color: black !important;
 }
